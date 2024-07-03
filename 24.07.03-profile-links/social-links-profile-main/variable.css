@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("./assets/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Inter-Var";
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+:root {
+    --main-color: hsl(75, 94%, 57%);
+    --second-color: hsl(0, 0%, 20%);
+    --neutral-color: hsl(0, 0%, 12%);
+    --white: hsl(0, 0%, 100%);
+    --off-black: hsl(0, 0%, 8%);
+
+    --font-main: "Inter-Var", sans-serif;
+    --font-regular: "Inter", sans-serif;
+    --font-bold: "Inter-Bold", sans-serif;
+    --font-semi-bold: "Inter-SemiBold", sans-serif;
+
+    --fs: 14px;
+
+    --fw-regular: 400;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+}

@@ -1,0 +1,73 @@
+@import url("./variable.css");
+
+body {
+    display: flex;
+    height: 100dvh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--off-black);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--neutral-color);
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.profile .avatar {
+    border-radius: 50%;
+    padding-bottom: 30px;
+}
+
+.profile .name {
+    padding-bottom: 14px;
+    color: var(--white);
+    font-family: var(--font-semi-bold);
+    font-size: 24px;
+}
+
+.profile .location {
+    padding-bottom: 18px;
+    color: var(--main-color);
+    font-family: var(--font-bold);
+    font-size: 14px;
+    padding-bottom: 36px;
+}
+
+.profile .bio {
+    color: var(--white);
+    font-family: var(--font-main);
+    font-weight: var(--fw-regular);
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.profile .btn {
+    width: 100%;
+    padding-block: 16px;
+    font-size: 14px;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--white);
+    font-family: var(--font-semi-bold);
+    background: var(--second-color);
+}
+
+.profile .btn:hover {
+    color: var(--off-black);
+    background: var(--main-color);
+}
+
+.profile .list-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 4px;
+}
