@@ -22,10 +22,10 @@ body {
 
 .profile .avatar {
     border-radius: 50%;
-    padding-bottom: 30px;
 }
 
 .profile .name {
+    padding-top: 30px;
     padding-bottom: 14px;
     color: var(--white);
     font-family: var(--font-semi-bold);

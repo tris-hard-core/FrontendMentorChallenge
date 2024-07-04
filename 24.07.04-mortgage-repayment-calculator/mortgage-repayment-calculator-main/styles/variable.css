@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "PlusJakartaSans";
+    src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Italic";
+    src: url("../assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf");
+}
+
+:root {
+    --color-main-lime: hsl(61, 70%, 52%);
+    --color-main-lime-opacity: rgba(215, 218, 47, 0.207);
+    --color-main-red: hsl(4, 69%, 50%);
+
+    --color-neutral-white: hsl(0, 0%, 100%);
+    --color-neutral-white-opacity: hsla(0, 0%, 100%, 0.738);
+    --color-neutral-slate-100: hsl(202, 86%, 94%);
+    --color-neutral-slate-300: hsl(203, 41%, 72%);
+    --color-neutral-slate-500: hsl(200, 26%, 54%);
+    --color-neutral-slate-700: hsl(200, 24%, 40%);
+    --color-neutral-slate-900: hsl(202, 55%, 16%);
+    --color-neutral-slate-1100: hsl(202, 70%, 11%);
+
+    --ff-main: "PlusJakartaSans", sans-serif;
+    --ff-main-italic: "PlusJakartaSans-Italic", sans-serif;
+
+    --fs-default: 1.4rem;
+    --fs-heading: 2.4rem;
+    --fs-title: 2rem;
+
+    --fs-label: 1.4rem;
+
+    --fw-medium: 500;
+    --fw-bold: 700;
+}
