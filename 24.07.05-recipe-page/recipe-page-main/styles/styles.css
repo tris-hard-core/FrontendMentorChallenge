@@ -1,0 +1,64 @@
+@import url("./variable.css");
+
+.recipe-image {
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.highlight {
+    background-color: var(--color-main-dark-raspberry-opacity);
+    padding: 32px 32px 0 32px;
+    margin-bottom: 32px;
+    border-radius: 10px;
+}
+
+.highlight h3 {
+    color: var(--color-main-dark-raspberry);
+    font-size: 2rem;
+    font-weight: var(--fw-bold);
+    margin-bottom: 24px;
+}
+
+.highlight ul li::marker {
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--color-main-dark-raspberry);
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-neural-light-grey);
+    margin-block: 40px;
+    border-radius: 999px;
+}
+
+.ingredient-list {
+    list-style-type: square;
+}
+
+.ingredient-list li::marker {
+    font-size: 1.3rem;
+}
+
+.desc {
+    margin-bottom: 36px;
+}
+
+.nutri-table .divider {
+    margin-block: 16px;
+}
+
+.nutri-item {
+    margin-inline-start: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}
+
+.nutri-item .indicator {
+    font-weight: var(--fw-extrabold);
+    color: var(--color-main-nutmeg);
+}

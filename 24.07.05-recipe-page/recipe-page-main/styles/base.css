@@ -1,0 +1,94 @@
+@import url("./variable.css");
+@import url("./font.css");
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    padding-block: 40px;
+
+    font-size: 1.6rem;
+    font-family: "outfit-regular", sans-serif;
+    line-height: 1.5;
+
+    background: var(--color-neural-egg-shell);
+    color: var(--color-neural-brown);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    width: 51%;
+
+    background: var(--color-neural-white);
+    border-radius: 20px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2 {
+    font-family: "young-serif", sans-serif;
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: var(--fw-medium);
+    color: var(--color-neural-dark-charcoal);
+    margin-bottom: 36px;
+}
+
+h2 {
+    color: var(--color-main-nutmeg);
+    font-size: 2.4rem;
+    font-weight: var(--fw-medium);
+    margin-bottom: 36px;
+}
+
+h3 {
+    color: var(--color-main-red-raspberry);
+}
+
+footer {
+    margin-top: auto;
+    padding-block: 40px;
+    text-align: center;
+}
+
+b {
+    font-weight: var(--fw-extrabold);
+}
+
+ul,
+ol {
+    margin-inline-start: 8px;
+}
+
+li {
+    margin-inline: 12px;
+    padding-inline: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    position: relative;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+::marker {
+    font-weight: var(--fw-bold);
+    color: var(--color-main-nutmeg);
+}

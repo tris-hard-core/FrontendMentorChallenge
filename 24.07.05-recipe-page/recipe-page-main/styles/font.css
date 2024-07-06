@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "young-serif";
+    src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: "outfit";
+    src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "outfit-bold";
+    src: url("../assets/fonts/outfit/static/Outfit-Bold.ttf");
+}
+
+@font-face {
+    font-family: "outfit-extrabold";
+    src: url("../assets/fonts/outfit/static/Outfit-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "outfit-black";
+    src: url("../assets/fonts/outfit/static/Outfit-Black.ttf");
+}
+
+@font-face {
+    font-family: "outfit-regular";
+    src: url("../assets/fonts/outfit/static/Outfit-Regular.ttf");
+}
+
+@font-face {
+    font-family: "outfit-thin";
+    src: url("../assets/fonts/outfit/static/Outfit-Thin.ttf");
+}
+
+@font-face {
+    font-family: "outfit-semibold";
+    src: url("../assets/fonts/outfit/static/Outfit-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "outfit-light";
+    src: url("../assets/fonts/outfit/static/Outfit-Light.ttf");
+}
+
+@font-face {
+    font-family: "outfit-extralight";
+    src: url("../assets/fonts/outfit/static/Outfit-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "outfit-medium";
+    src: url("../assets/fonts/outfit/static/Outfit-Medium.ttf");
+}

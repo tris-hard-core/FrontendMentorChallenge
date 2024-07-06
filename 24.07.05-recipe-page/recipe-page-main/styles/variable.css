@@ -1,0 +1,20 @@
+@import url("./font.css");
+:root {
+    --color-main-nutmeg: rgb(133, 70, 50);
+    --color-main-dark-raspberry: rgb(123, 40, 79);
+    --color-main-dark-raspberry-opacity: rgb(255, 247, 252);
+
+    --color-neural-white: rgb(255, 255, 255);
+    --color-neural-rose-white: rgb(255, 245, 250);
+    --color-neural-egg-shell: rgb(243, 230, 216);
+    --color-neural-light-grey: rgb(228, 222, 216);
+    --color-neural-brown: rgb(95, 87, 78);
+    --color-neural-dark-charcoal: rgb(48, 45, 44);
+
+    --fs-defatult: 1.4rem;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fw-extrabold: 900;
+}
